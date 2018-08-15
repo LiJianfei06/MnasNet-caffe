@@ -59,7 +59,7 @@ layer {
 }
 layer {
   name: "conv2_1/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv1"
   top: "conv2_1/dw"
   convolution_param {
@@ -179,7 +179,7 @@ layer {
 }
 layer {
   name: "conv3_1/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv3_1/sep1"
   top: "conv3_1/dw"
   convolution_param {
@@ -299,7 +299,7 @@ layer {
 }
 layer {
   name: "conv3_2/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv3_2/sep1"
   top: "conv3_2/dw"
   convolution_param {
@@ -429,7 +429,7 @@ layer {
 }
 layer {
   name: "conv3_3/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv3_3/sep1"
   top: "conv3_3/dw"
   convolution_param {
@@ -559,7 +559,7 @@ layer {
 }
 layer {
   name: "conv4_1/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv4_1/sep1"
   top: "conv4_1/dw"
   convolution_param {
@@ -679,7 +679,7 @@ layer {
 }
 layer {
   name: "conv4_2/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv4_2/sep1"
   top: "conv4_2/dw"
   convolution_param {
@@ -809,7 +809,7 @@ layer {
 }
 layer {
   name: "conv4_3/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv4_3/sep1"
   top: "conv4_3/dw"
   convolution_param {
@@ -939,7 +939,7 @@ layer {
 }
 layer {
   name: "conv5_1/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv5_1/sep1"
   top: "conv5_1/dw"
   convolution_param {
@@ -1059,7 +1059,7 @@ layer {
 }
 layer {
   name: "conv5_2/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv5_2/sep1"
   top: "conv5_2/dw"
   convolution_param {
@@ -1189,7 +1189,7 @@ layer {
 }
 layer {
   name: "conv5_3/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv5_3/sep1"
   top: "conv5_3/dw"
   convolution_param {
@@ -1319,7 +1319,7 @@ layer {
 }
 layer {
   name: "conv6_1/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv6_1/sep1"
   top: "conv6_1/dw"
   convolution_param {
@@ -1439,7 +1439,7 @@ layer {
 }
 layer {
   name: "conv6_2/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv6_2/sep1"
   top: "conv6_2/dw"
   convolution_param {
@@ -1569,7 +1569,7 @@ layer {
 }
 layer {
   name: "conv7_1/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv7_1/sep1"
   top: "conv7_1/dw"
   convolution_param {
@@ -1689,7 +1689,7 @@ layer {
 }
 layer {
   name: "conv7_2/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv7_2/sep1"
   top: "conv7_2/dw"
   convolution_param {
@@ -1819,7 +1819,7 @@ layer {
 }
 layer {
   name: "conv7_3/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv7_3/sep1"
   top: "conv7_3/dw"
   convolution_param {
@@ -1949,7 +1949,7 @@ layer {
 }
 layer {
   name: "conv7_4/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv7_4/sep1"
   top: "conv7_4/dw"
   convolution_param {
@@ -2079,7 +2079,7 @@ layer {
 }
 layer {
   name: "conv8_1/dw"
-  type: "Convolution"
+  type: "ConvolutionDepthwise"
   bottom: "conv8_1/sep1"
   top: "conv8_1/dw"
   convolution_param {
