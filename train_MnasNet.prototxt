@@ -1,4 +1,4 @@
-name:"MobileNetV2"
+name:"MnasNet"
 layer {
   name: "Data1"
   type: "Data"
