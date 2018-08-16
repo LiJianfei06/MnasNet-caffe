@@ -147,7 +147,7 @@ layer {
     bias_term: False
     pad: 0
     kernel_size: 1
-    stride: 2
+    stride: 1
     weight_filler {
       type: "msra"
     }
@@ -187,7 +187,7 @@ layer {
     bias_term: False
     pad: 1
     kernel_size: 3
-    stride: 1
+    stride: 2
     weight_filler {
       type: "msra"
     }
@@ -527,7 +527,7 @@ layer {
     bias_term: False
     pad: 0
     kernel_size: 1
-    stride: 2
+    stride: 1
     weight_filler {
       type: "msra"
     }
@@ -567,7 +567,7 @@ layer {
     bias_term: False
     pad: 2
     kernel_size: 5
-    stride: 1
+    stride: 2
     weight_filler {
       type: "msra"
     }
@@ -907,7 +907,7 @@ layer {
     bias_term: False
     pad: 0
     kernel_size: 1
-    stride: 2
+    stride: 1
     weight_filler {
       type: "msra"
     }
@@ -947,7 +947,7 @@ layer {
     bias_term: False
     pad: 2
     kernel_size: 5
-    stride: 1
+    stride: 2
     weight_filler {
       type: "msra"
     }
@@ -1537,7 +1537,7 @@ layer {
     bias_term: False
     pad: 0
     kernel_size: 1
-    stride: 2
+    stride: 1
     weight_filler {
       type: "msra"
     }
@@ -1577,7 +1577,7 @@ layer {
     bias_term: False
     pad: 2
     kernel_size: 5
-    stride: 1
+    stride: 2
     weight_filler {
       type: "msra"
     }
