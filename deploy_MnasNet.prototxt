@@ -1,23 +1,8 @@
-name:"MnasNet"
-layer {
-  name: "data"
-  type: "Data"
-  top: "data"
-  top: "label"
-  transform_param {
-    scale: 0.00390625
-    mirror: False
-    crop_size: 224
-  }
-  data_param {
-    source: "/home/lijianfei/datasets/kaggle_cat_dog/test_lmdb"
-    batch_size: 10
-    backend: LMDB
-  }
-  image_data_param {
-    shuffle: False
-  }
-}
+input: "data"
+input_dim: 1
+input_dim: 3
+input_dim: 224
+input_dim: 224
 layer {
   name: "conv1"
   type: "Convolution"
@@ -2185,8 +2170,7 @@ layer {
 }
 layer {
   name: "prob"
-  type: "Accuracy"
+  type: "Softmax"
   bottom: "fc1"
-  bottom: "label"
   top: "prob"
 }

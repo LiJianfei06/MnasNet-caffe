@@ -1,10 +1,11 @@
 name:"MnasNet"
 layer {
-  name: "Data1"
+  name: "data"
   type: "Data"
-  top: "Data1"
-  top: "Data2"
+  top: "data"
+  top: "label"
   transform_param {
+    scale: 0.00390625
     mirror: True
     crop_size: 224
   }
@@ -20,7 +21,7 @@ layer {
 layer {
   name: "conv1"
   type: "Convolution"
-  bottom: "Data1"
+  bottom: "data"
   top: "conv1"
   convolution_param {
     num_output: 32
@@ -2186,6 +2187,6 @@ layer {
   name: "Softmax1"
   type: "SoftmaxWithLoss"
   bottom: "fc1"
-  bottom: "Data2"
+  bottom: "label"
   top: "Softmax1"
 }
