@@ -3,7 +3,6 @@ A caffe implementation of Mnasnet: MnasNet: Platform-Aware Neural Architecture S
 
 
 train:
-
 ./train_net.sh
 
 
@@ -12,7 +11,6 @@ train:
 
 
 test:
-
 python eval_image.py --proto deploy_MnasNet.prototxt --model ./model_save/MnasNet_model_cat_dog_iter_64000.caffemodel  --image ./cat.jpg
 
 
@@ -21,5 +19,4 @@ python eval_image.py --proto deploy_MnasNet.prototxt --model ./model_save/MnasNe
 
 
 valid:
-
 python verify.py
